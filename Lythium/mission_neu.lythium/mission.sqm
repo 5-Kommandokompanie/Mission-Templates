@@ -1,0 +1,174 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1034;
+	class ItemIDProvider
+	{
+		nextID=1284;
+	};
+	class LayerIndexProvider
+	{
+		nextID=18;
+	};
+	class Camera
+	{
+		pos[]={14039.278,103.73964,3433.5349};
+		dir[]={-0.42053717,-0.80098689,-0.42639941};
+		up[]={-0.56243068,0.59858924,-0.57026762};
+		aside[]={-0.71207815,2.4014153e-006,0.70229763};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Structures_F_Enoch_Military_Airfield",
+	"A3_Modules_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=2;
+		class Item0
+		{
+			className="A3_Structures_F_Enoch_Military";
+			name="Arma 3 Contact Platform - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=5667684;
+class ScenarioData
+{
+	author="[5.KdoKp] Major Jan Wöde";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2015;
+		month=10;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Entities
+	{
+		items=3;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13973.45,20.441296,3380.2205};
+				angles[]={0,5.4620271,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=11;
+			type="Land_ServiceHangar_01_L_F";
+			atlOffset=0.17677879;
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={13936.88,20.450006,3414.2695};
+				angles[]={0,5.4620271,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=12;
+			type="Land_ServiceHangar_01_R_F";
+			atlOffset=1.3780193;
+		};
+		class Item2
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={13962.199,20.43512,3403.3994};
+				angles[]={0,5.4627757,0};
+			};
+			areaSize[]={24.306139,0,46.413094};
+			areaIsRectangle=1;
+			flags=1;
+			id=13;
+			type="ModuleHideTerrainObjects_F";
+			atlOffset=0.73910713;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=15;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+	};
+};

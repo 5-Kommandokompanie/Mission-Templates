@@ -1,0 +1,18 @@
+sleep 5;
+infochat sideChat "Hallo Kameraden!";
+sleep 3;
+master sideChat "Guten Tag!";
+sleep 2;
+master sideChat "Wir brauchen eine Information, sie sind doch hier Ortskundig?";
+sleep 4;
+infochat sideChat "Ja, natuerlich! Worum geht es?";
+sleep 3;
+master sideChat "Wissen Sie, wo dieses Bild hier aufgenommen wurde?";
+sleep 9;
+infochat sideChat "Ja, suedlich vom grossen Airfield, das ist der Militaerstuetzpunk von Stary Sobor.";
+sleep 5;
+master sideChat "Vielen Dank, Sie haben uns sehr geholfen. Sie haben was gut bei uns.";
+sleep 4;
+infochat sideChat "Ja, ich werde mich melden. Tschau!";
+sleep 3;
+master sideChat "Ok, tschau!";

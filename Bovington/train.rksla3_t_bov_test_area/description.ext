@@ -1,0 +1,16 @@
+author = "Master";
+
+class CfgSounds {
+    sounds[] = {};
+    class pop_up {
+        name = "pop_up";
+        sound[] = {"\sounds\pop_up.ogg", 30.0, 30};
+        titles[] = {};
+    };
+
+    class pop_down {
+        name = "pop_down";
+        sound[] = {"\sounds\pop_down.ogg", 30.0, 30};
+        titles[] = {};
+    };
+};

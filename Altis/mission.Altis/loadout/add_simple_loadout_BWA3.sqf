@@ -1,0 +1,33 @@
+_munit = _this select 0;
+
+_munit allowDamage false;
+
+_munit addAction ["<t color='#FCFF00'>Assaulter G28</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Assaulter_G28.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Assaulter G3</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Assaulter_G3.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Assaulter G3 MG</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Assaulter_G3_MG.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Assaulter G36</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Assaulter_G38.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Assaulter M32</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Assaulter_M32.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Assaulter MG4</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Assaulter_MG4.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Assaulter MG5</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Assaulter_MG5.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Assaulter PzF3</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Assaulter_PzF3.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Assaulter OHK</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Assaulter_MP5.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Breacher</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Breacher.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Breacher OHK</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Breacher_OHK.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>CFR-C</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\CFRC.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>CFR-C OHK</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\CFRC_OHK.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Master Signal</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Master_Signal.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Master Signal OHK</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Master_Signal_OHK.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Schütze</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Schuetze.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Schütze OHK</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Schuetze_OHK.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Sniper G22</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Sniper_G22.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Sniper G28</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Sniper_G28.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Sniper G36</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Sniper_G36.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Sniper G82</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Sniper_G82.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Spotter G28</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Spotter_G28.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Spotter G3</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Spotter_G3.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Spotter G36</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Spotter_G36.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Helipilot</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Helipilot.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Helipilot Tiger</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Helipilot_Tiger.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Jetpilot</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Jetpilot.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Panzerbesatzung</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Panzerbesatzung.sqf" }, player];
+_munit addAction ["<t color='#FCFF00'>Panzerkommandant</t>", { _null = [_this select 1] execVM "loadout\loadouts\BWA3\Panzerkommandant.sqf" }, player];
