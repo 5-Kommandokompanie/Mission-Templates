@@ -1,1 +1,0 @@
-player addAction ["Destroy Target", "cursorTarget setDamage 100"];
