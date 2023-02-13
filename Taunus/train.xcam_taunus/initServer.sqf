@@ -1,0 +1,2 @@
+anlageAktiv = false;
+publicVariable "anlageAktiv";
